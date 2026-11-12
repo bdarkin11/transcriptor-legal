@@ -2,10 +2,6 @@
 
 Aplicacion web de una sola pagina para transcribir audio de contenido juridico con Gemini. Resuelve el problema tipico de la transcripcion automatica en derecho: los terminos tecnicos mal reconocidos. Los corrige con un diccionario propio (por ejemplo "a vias corpus" → "hábeas corpus") y aprende correcciones nuevas, que se guardan en Firestore.
 
-## Live Deployment
-
-> **Live URL:** `[AGREGAR URL DE VERCEL / FIREBASE HOSTING]`
-
 ## Funciones
 
 - Transcripcion con la API de Gemini.
@@ -27,7 +23,6 @@ Este proyecto se construyo con desarrollo asistido por IA (Claude), con el autor
 ## Local Setup
 
 1. Copiar `config.example.js` como `config.js` y completar la API key de Gemini y la configuracion de Firebase.
-2. Poner las imagenes de fondo en `img/` (`fondo_1.png` a `fondo_5.png`).
-3. Abrir `index.html` con un servidor local (por ejemplo la extension Live Server).
+2. Abrir `index.html` con un servidor local (por ejemplo la extension Live Server).
 
 Al ser una app sin backend, la key de Gemini queda visible para quien abra la pagina: antes de publicarla conviene restringir la key por dominio en Google Cloud o pasar las llamadas por un backend.

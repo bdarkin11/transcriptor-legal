@@ -7,7 +7,6 @@ test_*.js
 benchmark.js
 list_models.js
 *.txt
-!img/LEEME.txt
 
 # Reglas de seguridad comunes
 .env
