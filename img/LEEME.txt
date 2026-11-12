@@ -1,0 +1,1 @@
+Poner aca las 5 imagenes de fondo del carrusel: fondo_1.png ... fondo_5.png

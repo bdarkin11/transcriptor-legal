@@ -1,0 +1,20 @@
+config.js
+.env
+node_modules/
+.vscode/
+# scripts de prueba y notas locales
+test_*.js
+benchmark.js
+list_models.js
+*.txt
+!img/LEEME.txt
+
+# Reglas de seguridad comunes
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.claude/
+.claudecode/
+*.log
